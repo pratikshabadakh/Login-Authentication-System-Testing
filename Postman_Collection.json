@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "Login API Testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Valid Login",
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/login"
+      }
+    },
+    {
+      "name": "Invalid Request",
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/login"
+      }
+    },
+    {
+      "name": "Unauthorized",
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/login"
+      }
+    }
+  ]
+}
